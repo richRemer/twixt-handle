@@ -2,9 +2,14 @@ twixt-handle Function
 =====================
 
 ```js
-var handle = require("twixt-handle");
+var doc = require("twixt-document"),
+    handle = require("twixt-handle");
 
-handle(document, "DOMContentLoaded", function(evt) {
-    // loaded
+doc(function(document) {
+    handle(document.getElementById("action"), "click", function(evt) {
+        evt.stopPropagation();
+        evt.preventDefault();
+        alert("clicked");
+    });
 });
-```
+
