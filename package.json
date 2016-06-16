@@ -1,0 +1,19 @@
+{
+  "name": "twixt-handle",
+  "version": "0.0.1",
+  "description": "attach event handlers",
+  "main": "handle.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/richRemer/twixt-handle.git"
+  },
+  "author": "Richard Remer (reanjr@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richRemer/twixt-handle/issues"
+  },
+  "homepage": "https://github.com/richRemer/twixt-handle#readme"
+}
