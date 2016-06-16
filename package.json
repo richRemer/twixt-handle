@@ -1,6 +1,6 @@
 {
   "name": "twixt-handle",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "attach event handlers",
   "main": "handle.js",
   "scripts": {
